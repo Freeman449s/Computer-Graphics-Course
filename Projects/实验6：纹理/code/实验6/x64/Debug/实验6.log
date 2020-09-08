@@ -1,0 +1,39 @@
+﻿  BMPOps.cpp
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(48): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(64): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(119): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(120): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(121): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(107): warning C4101: “layer”: 未引用的局部变量
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(147): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(151): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(155): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(130): warning C4101: “layer”: 未引用的局部变量
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(180): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(218): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(254): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(281): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(314): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\code\实验6\bmp\bmpops.cpp(347): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  源.cpp
+  正在生成代码...
+源.obj : error LNK2019: 无法解析的外部符号 __imp___glutInitWithExit，该符号在函数 glutInit_ATEXIT_HACK 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp_glutInitDisplayMode，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp_glutInitWindowSize，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp_glutMainLoop，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp___glutCreateWindowWithExit，该符号在函数 glutCreateWindow_ATEXIT_HACK 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp_glutPostRedisplay，该符号在函数 "void __cdecl idle(void)" (?idle@@YAXXZ) 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp_glutSwapBuffers，该符号在函数 "void __cdecl redraw(void)" (?redraw@@YAXXZ) 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp_glutDisplayFunc，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp_glutReshapeFunc，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp_glutKeyboardFunc，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp_glutIdleFunc，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp_glutSolidTeapot，该符号在函数 "void __cdecl Draw_Scene(void)" (?Draw_Scene@@YAXXZ) 中被引用
+glut32.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\Users\Asus\Desktop\code\x64\Debug\实验6.exe : fatal error LNK1120: 12 个无法解析的外部命令
